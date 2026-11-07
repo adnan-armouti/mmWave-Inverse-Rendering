@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.so
+build/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# Data, outputs and external code are not part of the release
+data/*
+!data/README.md
+output/
+third_party/
+*.pt
+*.pth
